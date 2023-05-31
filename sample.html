@@ -1,33 +1,51 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="sample.css">
-    <title>Document</title>
+  <title>Show/Hide Nav on Scroll</title>
+  <link rel="stylesheet" type="text/css" href="sample.css">
 </head>
 <body>
-    <div class="navigation">
-        <nav class="nav1">
-          <ul>
-            <a href="#"><img src="https://www.spacex.com/sites/spacex/files/spacex_logo_white.png" class="logo"></a>
-            <li><a href="#">Falcon 9</a></li>
-            <li><a href="#">Falcon Heavy</a></li>
-            <li><a href="#">Dragon</a></li>
-            <li><a href="#">Updates</a></li>
-            <div class="ul2-holder">
-            <li class="ul2"><a href="#">About Spacex</a></li>
-            <li class="ul2"><a href="#">Careers</a></li>
-            <li class="ul2"><a href="#">Gallery</a></li>
-            <li class="ul2"><a href="#">Shop</a></li>
-              </div>
-          </ul>
-        </nav>
-      </div>
-      
-      <div class="cover">
-        
-      </div>
+  <header class="nav-header">
+    <nav class="nav">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section style="background-image: url(img/spaceX-img1.jpg)">
+    <div class="content-outer">
+    <div class="content" data-aos="fade-right">
+        <h1>RECENT LAUNCH</h1>
+        <h2>STARLINK MISSION</h2>
+        <button class="animated_button">WATCH</button>
+    </div>
+</div>
+</section>
+<section style="background-image: url(img/spaceX-img2.jpg)">
+    <div class="content-outer">
+    <div class="content" data-aos="fade-right" data-aos-duration="2000">
+        <h1 style="font-size: 40px; font-weight: 700;">SPACEX TO LAUNCH VAST’S COMMERCIAL SPACE STATION</h1>
+        <button class="animated_button">REWATCH</button>
+    </div>
+</div>
+</section>
+<section style="background-image: url(img/spaceX-img3.jpg)">
+    <div class="content-outer">
+    <div class="content" data-aos="fade-right" data-aos-duration="2000">
+        <h1>RECENT</h1>
+        <h2>STARSHIP FLIGHT TEST</h2>
+        <button class="animated_button">LEARN MORE</button>
+    </div>
+</div>
+  
+  <main>
+    <!-- Content goes here -->
+  </main>
+  
+  <script src="script.js"></script>
 </body>
 </html>
